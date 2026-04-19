@@ -4,7 +4,7 @@
   "description": "Esse projeto foi desenvolvido na aula de primeiro servidor da cubos academy",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon ./src index.js "
   },
   "keywords": [
     "node",
@@ -14,6 +14,19 @@
   "author": "Elder Gomes",
   "license": "ISC",
   "dependencies": {
+    "express": "^5.2.1",
     "lodash": "^4.17.21"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eldergsilva/primeiro-servidor.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/eldergsilva/primeiro-servidor/issues"
+  },
+  "homepage": "https://github.com/eldergsilva/primeiro-servidor#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
